@@ -1,0 +1,48 @@
+.service__text{
+    font-size: 1.5rem;
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+.btn-ser{
+    border: 2px solid $blue-color;
+    background-color: $white-color;
+    color: $blue-color;
+    border-radius: 20px;
+    font-weight: 300;
+    margin: auto;
+    margin-bottom: 21px;
+}
+.service__label{
+    font-size: 1.5rem;
+    color:#333;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.service__title{
+    color:$text-color;
+    font-size: 1rem;
+}
+.service__table{
+    font-size: 1.5rem;
+}
+.service__box{
+    padding: 40px;
+    margin: 10px;
+    border: 1px solid $grey-light-color;
+    border-radius: 2px;
+}
+.service__box:hover{
+    animation: shadow 0.3s linear forwards;
+}
+.service__box--icon{
+    font-size: 3rem;
+    color: $blue-color;
+}
+.service__box--title{
+    margin: 20px 0; 
+}
+.service__box--descript{
+    color: $text-color;
+    font-size: 1rem;
+    margin: 20px 0;
+}

@@ -1,0 +1,68 @@
+.review{
+    margin-top: 100px;
+    font-size: 1rem;
+}
+.review__text{
+    @extend %contentText;
+    text-align: center;
+}
+.btn-review{
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid $blue-color;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 0;
+    @extend %contentBtn;
+}
+.review__label{
+    @extend %contentLabel;
+    margin-bottom:20px;
+}
+.review__title{
+    margin-bottom:40px;
+    @extend %contentTitle;
+}
+.reviewer__info{
+    display: flex;
+}
+.reviewer{
+    background-color: $white-color;
+    font-size: 1rem;
+    color:$text-color;
+    padding: 30px;
+    margin: 0 40px 100px 0;
+}
+.review__footer{
+    position: relative;
+    bottom: -25px;
+    left: 25px;
+}
+
+.ava{
+    display: inline-block;
+    border: 1px solid $white-color;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+}
+.ava img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center
+}
+.line__slider{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.line__slider-btn {
+    width: 4px;
+    background-color: rgba(21, 91, 213, 0.5);
+}
+.active2{
+    width: 10px;
+    background-color: $blue-color;
+}

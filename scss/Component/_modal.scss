@@ -1,0 +1,136 @@
+.modal1{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    z-index: 2;
+    display: none;
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+    display: none;
+}
+
+/*Vertical Nav*/
+.vertical__nav{
+    width: 25%;
+    height: 100vh;
+    background-color:#ffffff;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 40px;
+    transform: translateX(0)
+}
+.vertical__nav--close{
+    top:20px;
+    right: 20px;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.vertical__nav--close:hover{
+    color: $text-color;
+    animation: spin .5s linear;
+}
+.vertical__nav--close-bar{
+    width: 35px;
+    height: 2px;
+    display: block;
+    background-color: $text-color;
+    transform: rotate(45deg);   
+}
+.vertical__nav--close-bar-2{
+    width: 35px;
+    height: 2px;
+    display: block;
+    background-color: $text-color;
+    transform: rotate(-45deg);
+}
+.vertical__nav--logo{
+    margin-top: 100px;
+}
+.vertical__nav--logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+.vertical__nav--title{
+    color:$text-color;
+    margin-bottom: 20px;
+}
+.vertical__nav--list-item{
+   color: #333;
+   margin-bottom: 10px; 
+   margin-left: 0;
+   padding-left: 0;
+}
+.vertical__nav--item{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.vertical__nav--list-item .first-child{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.vertical__nav--item:hover{
+    color: $blue-color;
+    animation: moveRight linear .3s forwards;
+}
+.vertical__nav--icons{  
+    color: #333;
+    margin: 40px 0;
+    font-size:  1.5rem;
+}
+.footer__icons--title{
+    margin-bottom: 20px;
+}
+.footer__icon i{
+    margin-right: 10px;
+}
+.footer__icon i:hover{
+    color: $blue-color;
+}
+/*Video*/
+.video{
+    position: relative;
+}
+iframe{
+    display: block; 
+    margin: 200px auto; 
+}
+.btn-vid-close{
+    color: $white-color;
+    background-color: #333;
+    font-size: 3rem;
+    position: absolute;
+    right: 150px;
+    top: -200px;
+}
+/*Portfolio img*/
+.portfolio_img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-pf{
+    position: relative;
+    display: block;
+    margin: 100px auto;
+}
+.btn-img-close{
+    background-color: #ffffff;
+    position: absolute;
+    top: 30px;
+    right: 40px;    
+    display: block;
+    font-size: 3rem;
+}

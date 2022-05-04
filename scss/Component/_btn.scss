@@ -1,0 +1,32 @@
+.btn-white{
+    color: $white-grey-color;
+    position: absolute;
+    right: 0px;
+}
+.lg-btn{
+    @extend %btn;
+    background-color: $white-color;
+    color: $blue-color;
+    width: 200px;
+    padding: 10px;
+}
+.m-btn{
+    @extend %btn;
+    width: 150px;
+    padding: 5px 0;
+    margin-left: 10px;
+    border-radius: 2px;
+    border-radius: 3px;
+    font-size: 0.8rem
+}
+.s-btn{
+    @extend %btn;
+    width: 100px;
+}
+.line__slider-btn  {
+    background-color: red;
+    width: 25px;
+    height: 5px;
+    display: block;
+    margin-right:  5px;
+}

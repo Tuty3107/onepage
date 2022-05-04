@@ -1,0 +1,27 @@
+@import './Abstracts/variables';
+@import './Abstracts/mixins';
+@import './Abstracts/functions';
+
+@import './Base/animations';
+@import './Base/base';
+@import './Base/typography';
+
+@import './Component/modal';
+@import './Component/btn';
+@import './Component/reponsive';
+@import './Component/nav';
+
+//header
+@import './Layout/header';
+//body
+@import './Layout/ourstory';
+@import './Layout/service';
+@import './Layout/portfolio';
+@import './Layout/pricing';
+@import './Layout/creative';
+@import './Layout/review';
+@import './Layout/blogs';
+@import './Layout/clients';
+@import './Layout/contact';
+//footer
+@import './Layout/footer';

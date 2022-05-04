@@ -1,0 +1,167 @@
+@media (max-width: 575.98px) { 
+    body{
+        overflow-x: hidden;
+    }
+    /*Navbar*/
+    .nav__content{
+        display: block!important;
+    }
+    .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top:20px;
+    }
+    .btn-white i{
+        display: none;
+    }
+    .navbar-toggler-icon{
+        display: none;
+    }
+    .nav--close-bar,
+    .nav--close-bar-2,
+    .nav--close-bar-3{
+        width: 35px;
+        height: 2px;
+        display: block;
+        margin-bottom: 5px;
+        background-color: $white-grey-color;
+    }
+    .navbar-toggler:active .nav--close-bar{
+        display: none;
+    }
+    .navbar-toggler:active .nav--close-bar-2{
+        transform: rotate(-45deg);
+        margin-bottom: 0px;
+    }
+    .navbar-toggler:active .nav--close-bar-3{
+        transform: rotate(45deg);
+        margin-bottom: 0px;
+    }
+    /*Ourstory*/
+    .story__textbox-btn .row{
+        width: 100%;
+    }
+    .story__textbox-btn .btn-wr,
+    .btn-our-his, 
+    .btn-our-vision{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .story__textbox--descript{
+        padding: 20px
+    }
+    /*Portfolio*/
+    .tabs__portfolio{
+        margin: 40px 0;
+        position: relative;
+        display:flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+    }
+    /*Creative*/   
+
+    .intro:hover .intro__icons {
+        color: #333;
+        background-color: #ffffff;
+        width: 150px;
+        top: -15px;
+        left: 50px;
+    }
+    .form{
+        padding: 20px;
+    }
+    /*Footer*/
+    #footer__box--solution{
+            margin-left: 0px;
+        }
+    .footer__box,
+    .footer__box--solution,
+    .footer__box--title{
+        text-align: center;
+    }
+    .footer__box--descr{
+        text-align: center;
+    }
+    /*Modal*/
+    .btn-vid-close{
+        color: $white-color;
+        background-color: #333;
+        font-size: 3rem;
+        position: absolute;
+        right: 0px;
+        top: -200px;
+    }
+    .portfolio-pf{
+        position: relative;
+        display: block;
+        margin: 200px auto;
+        width: 100%;
+    }
+    .btn-img-close{
+        background-color: #ffffff;
+        position: absolute;
+        top: 30px;
+        right: 40px;    
+        display: block;
+        font-size: 3rem;
+    }
+}
+
+// Apply styles starting from medium devices and up to extra large devices
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+/*Navbar*/
+.nav__content{
+    display: block!important;
+    position: relative;
+}
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+    top:20px;
+}
+.btn-white i{
+    display: none;
+}
+.navbar-toggler-icon{
+    display: none;
+}
+.nav--close-bar,
+.nav--close-bar-2,
+.nav--close-bar-3{
+    width: 35px;
+    height: 2px;
+    display: block;
+    margin-bottom: 5px;
+    background-color: $white-grey-color;
+}
+.navbar-toggler:active .nav--close-bar{
+    display: none;
+}
+.navbar-toggler:active .nav--close-bar-2{
+    transform: rotate(-45deg);
+    margin-bottom: 0px;
+}
+.navbar-toggler:active .nav--close-bar-3{
+    transform: rotate(45deg);
+    margin-bottom: 0px;
+}
+/*Porfolio*/
+.pf__box img, svg {
+    width: 100%;
+}
+/*Create*/
+
+.intro:hover .intro__icons {
+    left: 33px;
+}
+/*Footer*/
+#footer__box--solution {
+    margin-left: 0px;
+}
+}
+
+
+
+

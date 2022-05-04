@@ -1,0 +1,64 @@
+.container-fluid{
+    background-color: $blue-color;
+}
+.navbar{
+    font-size: 1rem;
+    padding: 0;
+    line-height: 40px;   
+}
+.fixed-top{
+    z-index:1;
+}
+.nav__content{
+    display: flex;
+    padding: 20px 0;
+}
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    margin-left: 30px;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: $white-color;
+    font-size: 2rem;
+}
+.navbar-brand:hover { 
+    color: $white-color; 
+} 
+.navbar:hover{
+    cursor: pointer;
+}
+.nav-item a{
+    text-decoration: none;
+    margin-right: 35px;
+    color: $white-grey-color;
+}
+.nav-item:first-child a{
+    color: $white-color;
+}
+.nav-item:first-child:hover{
+    color: $white-color;
+}
+.nav-item~li:hover{
+    @extend %nav_ani;
+    color:$white-color;
+}
+.btn-white{
+    color: $white-grey-color;
+    position: relative;
+    right: 0px;
+    display: block;
+}
+.btn-white i{
+    font-size: 2rem;
+    right: 0;
+    position: absolute;
+}
+.btn-white:hover{
+    @extend %nav_ani
+}
+.btn-pc-only:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,90 @@
+.pricing{
+    margin-top: 100px;
+    font-size: 1rem;
+}
+.pricing__text{
+    @extend %contentText;
+}
+.btn-pricing{
+    margin: auto;
+    margin-bottom:20px;
+    @extend %contentBtn;
+}
+.pricing__label{
+    @extend %contentLabel;
+    margin-bottom:20px;
+}
+.pricing__title{
+    margin-bottom:40px;
+    @extend %contentTitle;
+}
+.pricing__item-title{
+    @extend %contentTitle;
+}
+.pricing__item{
+    background-color: $white-color;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    margin-right:20px;
+}
+.center{
+    box-shadow: 10px 10px 10px 10px $grey-light-color;
+}
+.pricing__item:hover{
+    animation: shadow linear .5s forwards;
+}
+
+.btn-title{
+    border: 2px solid $blue-color;
+    border-radius: 20px;
+    color: $blue-color;
+    margin: auto;
+    font-size: 0.8rem;
+}
+.btn-item{
+    border: 1px solid $blue-color;
+    border: 1px solid #155bd5;
+    margin: auto;
+}
+.lg-btn{
+    letter-spacing: 2px;
+}
+.lg-btn:hover{
+    background-color: $blue-color;
+    border: 1px solid $white-color;
+    color: $white-color;
+}
+.active{
+    background-color: $blue-color;
+    color: $white-color;
+}
+.pricing__item-title,
+.pricing__item--price{
+    text-align: center;
+    margin: 20px 0;
+}
+.pricing__item--price{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+.pricing__item--list{
+    margin-top: 20px;
+}
+.pricing__item--list li{
+    list-style-type: none;
+}
+.pricing__item--price span{
+    color: $text-color;
+    font-size: 1rem;
+}
+.dollar{
+    position: relative;
+    font-size: 1.5rem;
+    top:-20px;
+}
+.pricing__item--price .numb{
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 800;
+}

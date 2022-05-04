@@ -1,0 +1,99 @@
+.portfolio{
+    margin-top: 100px;
+}
+.portfolio__text{
+    text-align: center;
+    @extend %contentText
+}
+.btn-portfolio{
+    @extend %contentBtn;
+    margin: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.portfolio__label{
+    @extend %contentLabel;
+    margin-bottom: 20px;
+}
+.portfolio__title{
+    @extend %contentTitle;
+    margin-bottom: 40px;
+}
+.tabs__portfolio{
+    margin: 40px 0;
+    position: relative;
+    display:flex;
+    max-width: 100%;
+    justify-content: center;
+}
+.content{
+    display: none;
+}
+.active1{
+    display: block;
+    color: $blue-color;
+}
+.tab{
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 500;
+    margin: 0 20px;
+    display: inline-block;
+}
+.tab__line{
+    border-bottom: 5px solid #333;
+}
+.pf__box-heading{
+    position: relative;
+}
+.pf__box-heading img{
+    border-radius: 5px;
+}
+.pf__box--img img{
+    border-radius: 4px;
+}
+.pf__box--title{
+    font-size: 1.5rem;
+    color: #333;
+    margin: 20px 0;
+}
+.pf__box--descript{
+    color: $text-color;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.pf__box--img{
+    position: relative;
+}
+.pf__modal{
+   
+}
+.pf__modal--overlay{
+    background-color: rgba(255,255,255, 0.8);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80%;
+    max-width: 95%;
+    height: 93%;
+    border-radius: 5px;
+    display: none;
+}
+.pf__box-heading:hover .pf__modal--overlay{
+    display: block;
+}
+.pf__modal--body{
+    color:$blue-color;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+}
+.pf__modal--inner{
+    text-align: center;
+    margin-top: 40%;
+}
+.pf__modal--inner i{
+    font-size: 2.5rem;
+}

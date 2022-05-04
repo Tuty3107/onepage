@@ -1,0 +1,74 @@
+.contact{
+    font-size: 1rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.box{
+    display: flex;
+    border: 1px solid $text-color;
+    margin: 10px;
+    padding: 50px;
+}
+.box:hover{
+    animation: shadow .5s linear forwards;
+}
+.box i{
+    font-size: 2rem;
+    margin-right: 20px;
+    color: $blue-color;
+}
+.box__contact{
+
+}
+.box__contact--title{
+    color: $blue-color;
+    font-size: 1.5rem;
+}
+form{
+    border: 1px solid $text-color;
+    margin: 10px;
+    padding: 151px 107px 88px 100px
+}
+form:hover{
+    animation: shadow .5s linear forwards;
+}
+.form_intro{
+    text-align: center;
+}
+.form__label{
+    color: $blue-color;
+    margin-bottom: 10px;
+}
+.form__title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.form__descrip{
+    color: $text-color;
+    margin-bottom: 40px;
+}
+input{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid $text-color;
+    border-radius: 15px;
+    padding: 10px;
+}
+#msg{
+    height:100px;
+    margin-bottom: 60px;
+}
+#submit{
+    color: $white-color;
+    border-color: $blue-color;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: $blue-color;
+    margin: auto;
+}
+.form__input textarea{
+    width: 100%;
+}
+

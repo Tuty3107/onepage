@@ -1,0 +1,43 @@
+.heading{
+    background-color: $blue-color;
+    color: $white-color;
+    font-size: 1.5rem;
+    padding-top:81.6px;
+}
+.heading__box--left{
+    padding: 150px 0;
+}
+.heading__text{
+    margin-bottom: 20px;
+}
+.heading__descipt{
+    color: $white-grey-color;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.heading__watch--box{
+    display: flex;
+}
+.heading__watch--text{
+    margin-left: 10px;
+    transform: translateY(20%);
+    padding-left: 20px;
+}
+.lg-btn{
+    letter-spacing: 2px;
+}
+.lg-btn:hover{
+    background-color: $blue-color;
+    border: 1px solid $white-color;
+    color: $white-color;
+}
+.lg-btn:visited{
+    background-color: $blue-dark-color;
+    border: 1px solid $white-color;
+    color: $white-color;
+}
+.heading__img img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}

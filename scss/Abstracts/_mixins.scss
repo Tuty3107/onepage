@@ -1,0 +1,44 @@
+%nav_ani{
+    color: $white-color;
+    animation: lightUp linear .3s forwards;
+}
+%btn{
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+}
+//Common Vertical Nav
+%menuBar{
+    width: 30px;
+    height: 2px;
+    background-color: $text-color;
+    
+}
+//common content for body parts
+%contentBox{
+    margin: 100px
+}
+%contentText{
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+%contentLabel{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+%contentBtn{
+    color: $blue-color;
+    background-color: $white-color;
+    border-radius: 20px;
+    padding: 5px;
+    border:2px solid $blue-color;
+    position: relative;
+    margin-bottom: 20px;
+}
+%contentTitle{
+    color: #848688;
+    font-size: 1rem;
+}
